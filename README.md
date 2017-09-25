@@ -1,6 +1,23 @@
 # RednibMemory.dll
 
-
+### Overview
+    // Get/Set current process (you wont need it, hower you could use it)
+    public Process CurrentProcess {get; set;}
+    
+    // returns true if it has a handle to a process, otherwise false
+    public bool HasHandle()
+    
+    // opens the passed process
+    public void OpenProcess(Process processToRead)
+    
+    // closes the currently opened handle
+    public void CloseHandle()
+    
+    // reads memory at address "memoryAddress" with size "bytesToRead"
+    public byte[] ReadMemory(IntPtr memoryAddress, uint bytesToRead) //, out int bytesRead)
+    
+    // writes to memory at "memoryAddress" the bytes "bytesToWrite"
+    public void WriteMemory(IntPtr memoryAddress, byte[] bytesToWrite)//, out int bytesWritten)
 
 
 
