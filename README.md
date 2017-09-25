@@ -29,13 +29,13 @@
     // Write to memory
     
     // An address you are interested in (for better use, you could define it in hexadecimal format and convert it to int)
-    IntPtr pAddress = 65000;
-    // a decimal value you want to write
+    int pAddress = 65000;
+    // a value you want to write
     int intToWrite = 100;
     // converting "intToWrite" to bytes
     byte[] bytesToWrite = BitConverter.GetBytes(intToWrite);
-    // writing to memory
-    memReader.WriteMemory(pAddress, bytesToWrite);
+    // writing to memory (casting pAddress to IntPtr)
+    memReader.WriteMemory((IntPtr)pAddress, bytesToWrite);
 
 
     // Read memory
