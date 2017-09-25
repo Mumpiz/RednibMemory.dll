@@ -3,6 +3,8 @@
 ### Overview
     // RednibMemory.dll
     using RednibMemory
+    // (to use Process you must include "System.Diagnostics")
+    
 
     // Get/Set current process (you wont need it, hower you could use it)
     public Process CurrentProcess {get; set;}
