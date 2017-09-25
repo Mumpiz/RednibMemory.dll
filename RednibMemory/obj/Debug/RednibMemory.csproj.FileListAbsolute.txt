@@ -1,0 +1,5 @@
+C:\Users\Micha\Documents\SharpDevelop Projects\RednibMemoryReader\MemoryRW\bin\Debug\RednibMemory.dll
+C:\Users\Micha\Documents\SharpDevelop Projects\RednibMemoryReader\MemoryRW\bin\Debug\RednibMemory.pdb
+C:\Users\Micha\Documents\SharpDevelop Projects\RednibMemoryReader\MemoryRW\obj\Debug\RednibMemory.csprojResolveAssemblyReference.cache
+C:\Users\Micha\Documents\SharpDevelop Projects\RednibMemoryReader\MemoryRW\obj\Debug\RednibMemory.dll
+C:\Users\Micha\Documents\SharpDevelop Projects\RednibMemoryReader\MemoryRW\obj\Debug\RednibMemory.pdb
