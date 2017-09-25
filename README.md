@@ -42,7 +42,8 @@
     
     // get all running processes with the name "myProcess"
     Process[] processes = Process.GetProcessesByName("myProcess");
-    // select the first occurrence of the process "myProcess" (there could be more processes with the same name)
+    // select the first occurrence of the process "myProcess"
+    // (there could be more than one process with the same name)
     Process selectedProcess = processes[0];
     // open the process
     memReader.OpenProcess(selectedProcess);
