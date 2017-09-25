@@ -4,7 +4,7 @@
     using System.Diagnostics; // for Process
     using RednibMemory; // RednibMemory.dll
 
-### Instanciate my Rednib Dll
+### Instanciate Rednib Dll
     RednibMemory.MemoryReader memReader = new RednibMemory.MemoryReader();
     
 ### Open a process
