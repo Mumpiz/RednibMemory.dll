@@ -19,10 +19,10 @@
     public void CloseHandle()
     
     // reads memory at address "memoryAddress" with size "bytesToRead"
-    public byte[] ReadMemory(IntPtr memoryAddress, uint bytesToRead) //, out int bytesRead)
+    public byte[] ReadMemory(IntPtr memoryAddress, uint bytesToRead)
     
     // writes to memory at "memoryAddress" the bytes "bytesToWrite"
-    public void WriteMemory(IntPtr memoryAddress, byte[] bytesToWrite)//, out int bytesWritten)
+    public void WriteMemory(IntPtr memoryAddress, byte[] bytesToWrite)
 
 
 
