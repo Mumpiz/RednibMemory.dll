@@ -1,6 +1,9 @@
 # RednibMemory.dll
 
 ### Overview
+    // RednibMemory.dll
+    using RednibMemory
+
     // Get/Set current process (you wont need it, hower you could use it)
     public Process CurrentProcess {get; set;}
     
